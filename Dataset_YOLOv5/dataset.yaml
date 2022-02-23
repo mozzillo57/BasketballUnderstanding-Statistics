@@ -1,0 +1,8 @@
+path: ./yolov5 # dataset root dir
+train: ./images/val # train images (relative to 'path')
+val: ./images/val # val images (relative to 'path')
+test: ./test/val
+
+# Classes
+nc: 4 # number of classes
+names: ["player1", "player2", "ball", "basket"]
